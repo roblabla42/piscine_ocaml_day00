@@ -6,13 +6,19 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 07:30:30 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/15 11:11:01 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 09:46:14 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
-let rec ft_countdown = function
-    | x when x <= 0 -> print_int 0; print_char '\n'
-    | x -> print_int x; print_char '\n'; ft_countdown (x - 1);;
+let rec ft_countdown x =
+    if x <= 0 then begin
+        print_int 0;
+        print_char '\n'
+    end else begin
+        print_int x;
+        print_char '\n';
+        ft_countdown (x - 1)
+    end;;
 
 let () =
     let print_nbr x =

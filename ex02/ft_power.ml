@@ -6,15 +6,15 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 11:11:21 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/15 11:30:22 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 10:03:00 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
-let rec ft_power x = function
-    | 0 -> 1
-    | 1 -> x
-    | y when y mod 2 = 0 -> ft_power (x * x) (y / 2)
-    | y -> (ft_power x (y - 1)) * x;;
+let rec ft_power x y =
+    if      y = 0 then              1
+    else if y = 1 then              x
+    else if y mod 2 = 0 then        ft_power (x * x) (y / 2)
+    else                            ft_power x (y - 1) * 2;;
 
 let () =
     let print_nbr x y =
