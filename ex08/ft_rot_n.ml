@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 13:09:03 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/15 13:30:49 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:32:06 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -22,7 +22,7 @@ let ft_rot_n i str =
         else
             c
     in
-    String.map fn str;;
+    String.map fn str
 
 let () =
     print_endline (ft_rot_n 1 "abcdefghijklmnopqrstuvwxyz");
@@ -31,4 +31,4 @@ let () =
     print_endline (ft_rot_n 2 "OI2EAS67B9");
     print_endline (ft_rot_n 0 "Damned !");
     print_endline (ft_rot_n 42 "");
-    print_endline (ft_rot_n 1 "NBzlk qnbjr !");;
+    print_endline (ft_rot_n 1 "NBzlk qnbjr !")

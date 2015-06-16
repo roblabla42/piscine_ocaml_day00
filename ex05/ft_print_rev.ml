@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 12:31:54 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/15 13:00:05 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:29:50 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -19,8 +19,8 @@ let ft_print_rev str =
             ()
     in
     rev str (String.length str - 1);
-    print_char '\n';;
+    print_char '\n'
 
 let () =
     ft_print_rev "Hello world !";
-    ft_print_rev "";;
+    ft_print_rev ""

@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 07:30:30 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/16 09:46:14 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:28:43 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -18,7 +18,7 @@ let rec ft_countdown x =
         print_int x;
         print_char '\n';
         ft_countdown (x - 1)
-    end;;
+    end
 
 let () =
     let print_nbr x =
@@ -29,4 +29,4 @@ let () =
     in
     print_nbr (-5);
     print_nbr (0);
-    print_nbr (15);;
+    print_nbr (15)

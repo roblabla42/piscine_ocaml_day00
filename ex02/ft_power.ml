@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 11:11:21 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/16 10:03:00 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:29:12 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -14,7 +14,7 @@ let rec ft_power x y =
     if      y = 0 then              1
     else if y = 1 then              x
     else if y mod 2 = 0 then        ft_power (x * x) (y / 2)
-    else                            ft_power x (y - 1) * 2;;
+    else                            ft_power x (y - 1) * 2
 
 let () =
     let print_nbr x y =
@@ -31,4 +31,4 @@ let () =
     print_nbr 0 5;
     print_nbr 5 7;
     print_nbr 12 12;
-    print_nbr 3 3;;
+    print_nbr 3 3

@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 11:42:52 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/16 10:07:35 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:29:35 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -26,7 +26,7 @@ let ft_print_comb () =
     print_int 1;
     print_int 2;
     ft_print_comb_rec 0 1 3;
-    print_string "\n";;
+    print_string "\n"
 
 let () =
-    ft_print_comb();;
+    ft_print_comb()

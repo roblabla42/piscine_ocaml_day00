@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 11:31:03 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/16 10:04:54 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:29:23 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -19,7 +19,7 @@ let ft_print_alphabet () =
         end else           ()
     in
     ft_print_range 'a' 'z';
-    print_char '\n';;
+    print_char '\n'
 
 let () =
-    ft_print_alphabet ();;
+    ft_print_alphabet ()

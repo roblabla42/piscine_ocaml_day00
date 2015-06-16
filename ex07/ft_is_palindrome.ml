@@ -6,7 +6,7 @@
 (*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/15 13:05:05 by roblabla          #+#    #+#             *)
-(*   Updated: 2015/06/15 13:08:45 by roblabla         ###   ########.fr       *)
+(*   Updated: 2015/06/16 12:30:20 by roblabla         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -18,7 +18,7 @@ let ft_is_palindrome str =
         else
             true
     in
-    inner 0;;
+    inner 0
 
 let () =
     let print_true b =
@@ -30,4 +30,4 @@ let () =
     print_true (ft_is_palindrome "radar");
     print_true (ft_is_palindrome "madam");
     print_true (ft_is_palindrome "car");
-    print_true (ft_is_palindrome "");;
+    print_true (ft_is_palindrome "")
