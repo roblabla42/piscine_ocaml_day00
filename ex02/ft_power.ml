@@ -14,7 +14,7 @@ let rec ft_power x y =
     if      y = 0 then              1
     else if y = 1 then              x
     else if y mod 2 = 0 then        ft_power (x * x) (y / 2)
-    else                            ft_power x (y - 1) * 2
+    else                            ft_power x (y - 1) * x
 
 let () =
     let print_nbr x y =
